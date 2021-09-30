@@ -11,3 +11,10 @@ git repo를 생성하고 순방향으로 cli를 이용해서 remote repo에 push
 5. local repo에 commit message와 함께 commit한다 -> `git commit` 
 6. remote repo에 commit 내용을 밀어넣는다 -> `git push [alias] main`
 
+
+# `clone`
+repo를 생성하고, `git clone`을 이용해서 git과 연결
+```
+git clone [git-repo-src]
+```
+
