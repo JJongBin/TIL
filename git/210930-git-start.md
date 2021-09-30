@@ -1,5 +1,12 @@
 # `git init`
 
+git 설정을 먼저 해준다
+- git config --global user.name "name"
+- git config --global user.email "email"
+- git config --global core.pager "cat"
+- git config --global core.editor "vim"
+
+
 git repo를 생성하고 순방향으로 cli를 이용해서 remote repo에 push하는 과정을 정리
 
 - 프로젝트는 폴더 단위로 구분해야 하기 때문에 먼저 폴더를 생성해준다
